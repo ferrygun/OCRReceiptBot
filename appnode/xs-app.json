@@ -1,0 +1,12 @@
+{
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "/",
+      "target": "/",
+      "destination": "nodeBackend1",
+      "csrfProtection": false,
+      "authenticationType": "basic"
+    }
+  ]
+}
