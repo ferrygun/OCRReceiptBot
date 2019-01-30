@@ -1,0 +1,11 @@
+---
+applications:
+
+- name: appnode-demo
+  host: appnode-demo-pxxxxtrial
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  memory: 128M
+  services:
+    - xsuaanode-demo
+    - connectivity-demo-lite
+    - destinationnode-demo-lite
